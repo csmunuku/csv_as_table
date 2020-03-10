@@ -103,8 +103,7 @@ csv_to_table()
        done
        echo
      done < ${1}
-     println ${line_length_to_print}
-
+     print_header_last_ln ${line_length_to_print}
   elif [[ $# -eq 2 && -f ${1} && "${2}" = "header" ]]; then
      fields_in_csv=$(no_of_fields_in_csv ${1})
      for i in $(seq 1 ${fields_in_csv})
