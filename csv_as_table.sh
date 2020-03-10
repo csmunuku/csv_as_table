@@ -1,5 +1,8 @@
 #!/bin/bash
-# longest line length.
+#################################################################
+# AUTHOR: Chandra Munukutla
+# DESC: Creates a Table from input csv file.
+#################################################################
 
 count=0
 
