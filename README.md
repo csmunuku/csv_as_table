@@ -39,7 +39,7 @@ $ ./csv_as_table2.sh test.csv
 | onegood | two | three | four | fivethisisagoodone |
 |     one | two | three | four |               five |
 |     one | two | three | four |               five |
------------------------------------------------------
++---------------------------------------------------+
 
 $ ./csv_as_table2.sh test.csv header
 +---------------------------------------------------+
