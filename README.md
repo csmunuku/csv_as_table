@@ -1,5 +1,5 @@
 # csv_as_table
-Read a CSV file and Display it as a Table
+Read a CSV file and Display it as a Table.  Three different display formats chosen, something similar to SQL table output or AWS CLI output format.
 
 **USAGE:**
 ```
